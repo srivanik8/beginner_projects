@@ -10,7 +10,7 @@
       "points": 1
     },
     {
-      "name": "Part 2.1: Converting an ISO",
+      "name": "Part 2.1: Converting an ISO formatted date into a DateTime data type",
       "setup": "",
       "run": "pytest test_microproject-04-us-congress.py::test_Part_2_1__Converting_an_ISO_formatted_date_into_a_DateTime_data_type",
       "comparison": "included",
@@ -34,7 +34,7 @@
       "points": 1
     },
     {
-      "name": "Part 2.4: A Popular Day",
+      "name": "Part 2.4: A Popular Day for Birthdays",
       "setup": "",
       "run": "pytest test_microproject-04-us-congress.py::test_Part_2_4__A_Popular_Day_for_Birthdays",
       "comparison": "included",
