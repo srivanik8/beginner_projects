@@ -1,0 +1,69 @@
+{
+  "allOrNothing": true,
+  "tests": [
+    {
+      "name": "Part 1: Importing the Bechdel Test Dataset",
+      "setup": "",
+      "run": "pytest test_microproject-05-bechdel-test.py::test_Part_1__Importing_the_Bechdel_Test_Dataset",
+      "comparison": "included",
+      "timeout": 0.5,
+      "points": 1
+    },
+    {
+      "name": "Part 2.1: Starting a Pivot Table",
+      "setup": "",
+      "run": "pytest test_microproject-05-bechdel-test.py::test_Part_2_1__Starting_a_Pivot_Table",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 2.2: Creating a Pivot Table for Years",
+      "setup": "",
+      "run": "pytest test_microproject-05-bechdel-test.py::test_Part_2_2__Creating_a_Pivot_Table_for_Years",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 2.3: Columns in a Pivot Table",
+      "setup": "",
+      "run": "pytest test_microproject-05-bechdel-test.py::test_Part_2_3__Columns_in_a_Pivot_Table",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 2.4: Adding the values Parameter to your Pivot Table",
+      "setup": "",
+      "run": "pytest test_microproject-05-bechdel-test.py::test_Part_2_4__Adding_the_values_Parameter_to_your_Pivot_Table",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Step 2.5: Specify the fill_value",
+      "setup": "",
+      "run": "pytest test_microproject-05-bechdel-test.py::test_Step_2_5__Specify_the_fill_value",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3.1: Transforming Counts into Proportions",
+      "setup": "",
+      "run": "pytest test_microproject-05-bechdel-test.py::test_Part_3_1__Transforming_Counts_into_Proportions",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3.2: Finding the Percentage of Movies Per Year with Each Rating",
+      "setup": "",
+      "run": "pytest test_microproject-05-bechdel-test.py::test_Part_3_2__Finding_the_Percentage_of_Movies_Per_Year_with_Each_Rating",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    }
+  ]
+}
