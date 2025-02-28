@@ -1,0 +1,61 @@
+{
+  "allOrNothing": true,
+  "tests": [
+    {
+      "name": "Part 1.1: Simulating the `number` in Roulette Game",
+      "setup": "",
+      "run": "pytest test_microproject-06-infinite-money-in-roulette-martingale.py::test_Part_1_1__Simulating_the__number__in_Roulette_Game",
+      "comparison": "included",
+      "timeout": 0.5,
+      "points": 1
+    },
+    {
+      "name": "Part 1.2: Adding Each Number's `color` to the Simulation",
+      "setup": "",
+      "run": "pytest test_microproject-06-infinite-money-in-roulette-martingale.py::test_Part_1_2__Adding_Each_Number_s__color__to_the_Simulation",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 1.3: Adding `result` and `nextBet` to your Simulation",
+      "setup": "",
+      "run": "pytest test_microproject-06-infinite-money-in-roulette-martingale.py::test_Part_1_3__Adding__result__and__nextBet__to_your_Simulation",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 1.4: Complete your Simulation",
+      "setup": "",
+      "run": "pytest test_microproject-06-infinite-money-in-roulette-martingale.py::test_Part_1_4__Complete_your_Simulation",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 2: Analysis of Infinite Money",
+      "setup": "",
+      "run": "pytest test_microproject-06-infinite-money-in-roulette-martingale.py::test_Part_2__Analysis_of_Infinite_Money",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3.1: Updated Simulation with Table Limits",
+      "setup": "",
+      "run": "pytest test_microproject-06-infinite-money-in-roulette-martingale.py::test_Part_3_1__Updated_Simulation_with_Table_Limits",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3.2: Analysis of Losses in Games with Table Limits",
+      "setup": "",
+      "run": "pytest test_microproject-06-infinite-money-in-roulette-martingale.py::test_Part_3_2__Analysis_of_Losses_in_Games_with_Table_Limits",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    }
+  ]
+}
