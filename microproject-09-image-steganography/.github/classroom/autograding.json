@@ -55,9 +55,9 @@
       "points": 1
     },
     {
-      "name": "Part 2: Concatenate the Entire String and Fix the Spaces",
+      "name": "Part 3.4: Concatenate the Entire String and Fix the Spaces",
       "setup": "",
-      "run": "pytest test_microproject-09-image-steganography.py::test_Part_2__Concatenate_the_Entire_String_and_Fix_the_Spaces",
+      "run": "pytest test_microproject-09-image-steganography.py::test_Part_3_4__Concatenate_the_Entire_String_and_Fix_the_Spaces",
       "comparison": "included",
       "timeout": 0.1,
       "points": 1
