@@ -1,0 +1,58 @@
+{
+  "allOrNothing": true,
+  "microProject": {
+    "title": "MicroProject #10: Chess and The Elo System",
+    "image": "https://waf-server-01.cs.illinois.edu/static/up-cards/10/regular.svg",
+    "link": "https://mastery.cs.illinois.edu/platform/cards/"
+  },
+  "tests": [
+    {
+      "name": "Part 2.1: Probability of Winning Formula",
+      "setup": "",
+      "run": "pytest test_microproject-10-chess-and-the-elo-system.py::test_Part_2_1__Probability_of_Winning_Formula",
+      "comparison": "included",
+      "timeout": 0.5,
+      "points": 1
+    },
+    {
+      "name": "Part 2.2: Applying Your Elo Formula",
+      "setup": "",
+      "run": "pytest test_microproject-10-chess-and-the-elo-system.py::test_Part_2_2__Applying_Your_Elo_Formula",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 2.3 and Part 2.4: Elo Calculations",
+      "setup": "",
+      "run": "pytest test_microproject-10-chess-and-the-elo-system.py::test_Part_2_3_and_Part_2_4__Elo_Calculations",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 2.5: Plotting Your Winning Chances",
+      "setup": "",
+      "run": "pytest test_microproject-10-chess-and-the-elo-system.py::test_Part_2_5__Plotting_Your_Winning_Chances",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3.1: Decisive Games",
+      "setup": "",
+      "run": "pytest test_microproject-10-chess-and-the-elo-system.py::test_Part_3_1__Decisive_Games",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3: Probability vs. Reality",
+      "setup": "",
+      "run": "pytest test_microproject-10-chess-and-the-elo-system.py::test_Part_3__Probability_vs__Reality",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    }
+  ]
+}
