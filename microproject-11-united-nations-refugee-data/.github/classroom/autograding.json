@@ -1,0 +1,50 @@
+{
+  "allOrNothing": true,
+  "microProject": {
+    "title": "MicroProject #11: United Nations (UNHCR) Refugee Data",
+    "image": "https://waf-server-01.cs.illinois.edu/static/up-cards/11/regular.svg",
+    "link": "https://mastery.cs.illinois.edu/platform/cards/"
+  },
+  "tests": [
+    {
+      "name": "Part 1.1: Fetching Refugees Data for a Single Year",
+      "setup": "",
+      "run": "pytest test_microproject-11-united-nations-refugee-data.py::test_Part_1_1__Fetching_Refugees_Data_for_a_Single_Year",
+      "comparison": "included",
+      "timeout": 0.5,
+      "points": 1
+    },
+    {
+      "name": "Puzzle 1.2: Getting the Number of Refugees for a Single Year",
+      "setup": "",
+      "run": "pytest test_microproject-11-united-nations-refugee-data.py::test_Puzzle_1_2__Getting_the_Number_of_Refugees_for_a_Single_Year",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 2.1 and 2.2: Fetching Refugees Data",
+      "setup": "",
+      "run": "pytest test_microproject-11-united-nations-refugee-data.py::test_Part_2_1_and_2_2__Fetching_Refugees_Data",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 2.3: Fetching the Number of Refugees for All Years",
+      "setup": "",
+      "run": "pytest test_microproject-11-united-nations-refugee-data.py::test_Part_2_3__Fetching_the_Number_of_Refugees_for_All_Years",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3: Creating a Histogram of Refugees by Year",
+      "setup": "",
+      "run": "pytest test_microproject-11-united-nations-refugee-data.py::test_Part_3__Creating_a_Histogram_of_Refugees_by_Year",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    }
+  ]
+}
