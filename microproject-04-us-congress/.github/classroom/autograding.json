@@ -1,0 +1,61 @@
+{
+  "allOrNothing": true,
+  "tests": [
+    {
+      "name": "Part 1: Importing the legislators-current dataset",
+      "setup": "",
+      "run": "pytest test_microproject-04-us-congress.py::test_Part_1__Importing_the_legislators_current_dataset",
+      "comparison": "included",
+      "timeout": 0.5,
+      "points": 1
+    },
+    {
+      "name": "Part 2.1: Converting an ISO formatted date into a DateTime data type",
+      "setup": "",
+      "run": "pytest test_microproject-04-us-congress.py::test_Part_2_1__Converting_an_ISO_formatted_date_into_a_DateTime_data_type",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 2.2: Using DateTime Operations",
+      "setup": "",
+      "run": "pytest test_microproject-04-us-congress.py::test_Part_2_2__Using_DateTime_Operations",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 2.3: A Day Without a Birthday Celebration",
+      "setup": "",
+      "run": "pytest test_microproject-04-us-congress.py::test_Part_2_3__A_Day_Without_a_Birthday_Celebration",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 2.4: A Popular Day for Birthdays",
+      "setup": "",
+      "run": "pytest test_microproject-04-us-congress.py::test_Part_2_4__A_Popular_Day_for_Birthdays",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3.1: Calculating the Age of Each Member of Congress",
+      "setup": "",
+      "run": "pytest test_microproject-04-us-congress.py::test_Part_3_1__Calculating_the_Age_of_Each_Member_of_Congress",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3.2: Senators vs. Representatives",
+      "setup": "",
+      "run": "pytest test_microproject-04-us-congress.py::test_Part_3_2__Senators_vs__Representatives",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    }
+  ]
+}
