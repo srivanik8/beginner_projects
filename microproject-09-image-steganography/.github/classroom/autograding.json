@@ -1,0 +1,74 @@
+{
+  "allOrNothing": true,
+  "microProject": {
+    "title": "MicroProject #9: Image Steganography with DataFrames",
+    "image": "https://waf-server-01.cs.illinois.edu/static/up-cards/09/regular.svg",
+    "link": "https://mastery.cs.illinois.edu/platform/cards/"
+  },
+  "tests": [
+    {
+      "name": "Part 1: Using the DISCOVERY Library",
+      "setup": "",
+      "run": "pytest test_microproject-09-image-steganography.py::test_Part_1__Using_the_DISCOVERY_Library",
+      "comparison": "included",
+      "timeout": 0.5,
+      "points": 1
+    },
+    {
+      "name": "Part 2.1: Finding the First 27 Rows",
+      "setup": "",
+      "run": "pytest test_microproject-09-image-steganography.py::test_Part_2_1__Finding_the_First_27_Rows",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 2.2: Label the Pixels with an Even `b` Value",
+      "setup": "",
+      "run": "pytest test_microproject-09-image-steganography.py::test_Part_2_2__Label_the_Pixels_with_an_Even__b__Value",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 2.3: Filter to Include ONLY Pixels with Even-Valued Blue Components",
+      "setup": "",
+      "run": "pytest test_microproject-09-image-steganography.py::test_Part_2_3__Filter_to_Include_ONLY_Pixels_with_Even_Valued_Blue_Components",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3.1: Creating a Character from a Number",
+      "setup": "",
+      "run": "pytest test_microproject-09-image-steganography.py::test_Part_3_1__Creating_a_Character_from_a_Number",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3.2: Apply the `chr` Function to Every Row",
+      "setup": "",
+      "run": "pytest test_microproject-09-image-steganography.py::test_Part_3_2__Apply_the__chr__Function_to_Every_Row",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3.4: Concatenate the Entire String and Fix the Spaces",
+      "setup": "",
+      "run": "pytest test_microproject-09-image-steganography.py::test_Part_3_4__Concatenate_the_Entire_String_and_Fix_the_Spaces",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 4: Reuseable Function",
+      "setup": "",
+      "run": "pytest test_microproject-09-image-steganography.py::test_Part_4__Reuseable_Function",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    }
+  ]
+}
