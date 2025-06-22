@@ -1,0 +1,58 @@
+{
+  "allOrNothing": true,
+  "microProject": {
+    "title": "MicroProject #12: AI vs Human: Response Analysis",
+    "image": "https://waf-server-01.cs.illinois.edu/static/up-cards/12/regular.svg",
+    "link": "https://mastery.cs.illinois.edu/platform/cards/"
+  },
+  "tests": [
+    {
+      "name": "Part 1: Loading the Dataset",
+      "setup": "",
+      "run": "pytest test_microproject-12-ai-vs-human-response-analysis.py::test_Part_1__Loading_the_Dataset",
+      "comparison": "included",
+      "timeout": 0.5,
+      "points": 1
+    },
+    {
+      "name": "Part 2.2: Compute the Average Answer Lengths",
+      "setup": "",
+      "run": "pytest test_microproject-12-ai-vs-human-response-analysis.py::test_Part_2_2__Compute_the_Average_Answer_Lengths",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 2.4: Response Length Analysis",
+      "setup": "",
+      "run": "pytest test_microproject-12-ai-vs-human-response-analysis.py::test_Part_2_4__Response_Length_Analysis",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3: Sentiment Analysis - Polarity",
+      "setup": "",
+      "run": "pytest test_microproject-12-ai-vs-human-response-analysis.py::test_Part_3__Sentiment_Analysis___Polarity",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 4: Sentiment Analysis - Subjectivity",
+      "setup": "",
+      "run": "pytest test_microproject-12-ai-vs-human-response-analysis.py::test_Part_4__Sentiment_Analysis___Subjectivity",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 5: Testing if the Difference in Subjectivity is Statistically Significant",
+      "setup": "",
+      "run": "pytest test_microproject-12-ai-vs-human-response-analysis.py::test_Part_5__Testing_if_the_Difference_in_Subjectivity_is_Statistically_Significant",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    }
+  ]
+}
