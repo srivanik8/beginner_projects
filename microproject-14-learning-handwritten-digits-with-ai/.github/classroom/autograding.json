@@ -1,0 +1,82 @@
+{
+  "allOrNothing": true,
+  "microProject": {
+    "title": "MicroProject #14: Learning Handwritten Digits with AI",
+    "image": "https://waf-server-01.cs.illinois.edu/static/up-cards/14/regular.svg",
+    "link": "https://mastery.cs.illinois.edu/platform/cards/"
+  },
+  "tests": [
+    {
+      "name": "Part 1.2: Creating the a List of All Pixel Column Names",
+      "setup": "",
+      "run": "pytest test_microproject-14-learning-handwritten-digits-with-ai.py::test_Part_1_2__Creating_the_a_List_of_All_Pixel_Column_Names",
+      "comparison": "included",
+      "timeout": 0.5,
+      "points": 1
+    },
+    {
+      "name": "Part 2: Testing/Training Split",
+      "setup": "",
+      "run": "pytest test_microproject-14-learning-handwritten-digits-with-ai.py::test_Part_2__Testing_Training_Split",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3.3: Training and Labeling your KMeans model with Training Data",
+      "setup": "",
+      "run": "pytest test_microproject-14-learning-handwritten-digits-with-ai.py::test_Part_3_3__Training_and_Labeling_your_KMeans_model_with_Training_Data",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3.4: Identifying Each Cluster's Label",
+      "setup": "",
+      "run": "pytest test_microproject-14-learning-handwritten-digits-with-ai.py::test_Part_3_4__Identifying_Each_Cluster_s_Label",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3.5: Label the Testing Data with a Prediction",
+      "setup": "",
+      "run": "pytest test_microproject-14-learning-handwritten-digits-with-ai.py::test_Part_3_5__Label_the_Testing_Data_with_a_Prediction",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 3.6: Calculate the Prediction Error",
+      "setup": "",
+      "run": "pytest test_microproject-14-learning-handwritten-digits-with-ai.py::test_Part_3_6__Calculate_the_Prediction_Error",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 4.1: Finding Neighbors",
+      "setup": "",
+      "run": "pytest test_microproject-14-learning-handwritten-digits-with-ai.py::test_Part_4_1__Finding_Neighbors",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 4.4: Labeling Predictions Using the KNeighborsClassifier",
+      "setup": "",
+      "run": "pytest test_microproject-14-learning-handwritten-digits-with-ai.py::test_Part_4_4__Labeling_Predictions_Using_the_KNeighborsClassifier",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    },
+    {
+      "name": "Part 4.5: Calculate Prediction Error",
+      "setup": "",
+      "run": "pytest test_microproject-14-learning-handwritten-digits-with-ai.py::test_Part_4_5__Calculate_Prediction_Error",
+      "comparison": "included",
+      "timeout": 0.1,
+      "points": 1
+    }
+  ]
+}
